@@ -43,6 +43,7 @@ data =
 	"2021_12_11.mp3", "Éra vacápu a vlnobitia ság a epopejí sa končí.",
 	"2021_12_12.mp3", "Programátor tehotný muž.",
 	"2021_12_13.mp3", "Jurko vs Zajko o dodržiavaní predpisov.",
+	"2021_12_14.mp3", "Štyri mozgové bunky a ani tie o sebe nevedia.",
 ];
 
 
