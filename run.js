@@ -28,7 +28,7 @@ var data =
 	"2021_11_03.mp3", "Jimmyho drezúra.",
 	"2021_11_04.mp3", "Ajfónový etalón, alebo respektíve chlapcovi jebe jak osem klaksónov.",
 	"2021_11_05.mp3", "Žiadne porno sa nekoná!",
-	"2021_11_08.mp3", "Šošovička u Robka.",
+	"2021_11_08.mp3", "Profesionálny kokot.",
 	"2021_11_10.mp3", "Parkovania na kripla a hyperspam.",
 	"2021_11_11.mp3", "Cukríček balí švestičky a ide pinuškať...",
 	"2021_11_12.mp3", "Jedlé vrany a princ ružolíci.",
