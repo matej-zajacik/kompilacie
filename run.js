@@ -44,22 +44,37 @@ var data =
 	"2021_12_12.mp3", "Programátor tehotný muž.",
 	"2021_12_13.mp3", "Jurko vs Zajko o dodržiavaní predpisov.",
 	"2021_12_14.mp3", "Štyri mozgové bunky a ani tie o sebe nevedia.",
+	"2021_12_15.mp3", "Inžinieri z FB niekde urobili chybu.",
 ];
+
+var played_audio;
 
 
 
 function go()
 {
+	//set_cookie("played_audio", "", 0);
+	init_played_audio();
+	write_page();
+}
+
+
+
+function write_page()
+{
 	var body = document.body;
 
 	for (var i = 0; i < data.length; i += 2)
 	{
+		var index = i / 2;
+
 		var div = document.createElement("div");
 		div.setAttribute("id", "item");
 		body.appendChild(div);
 
+		var played = played_audio.includes(index) ? " (played)" : "";
 		var header = document.createElement("h1");
-		header.innerHTML = "#" + ((i / 2) + 1);
+		header.innerHTML = "#" + (index + 1) + played;
 		div.appendChild(header);
 		var text = document.createElement("p");
 		text.innerHTML = data[i + 1];
@@ -67,10 +82,78 @@ function go()
 
 		var audio = document.createElement("audio");
 		audio.setAttribute("controls", "");
+		audio.setAttribute("onplay", "audio_did_play(" + index + ")");
 		var source = document.createElement("source");
 		source.setAttribute("src", "data/" + data[i]);
 		source.setAttribute("type", "audio/mpeg");
 		audio.appendChild(source);
 		div.appendChild(audio);
 	}
+}
+
+
+
+function init_played_audio()
+{
+	var cookie = get_cookie("played_audio");
+	var tokens = cookie.split(",");
+
+	played_audio = [];
+
+	for (var i = 0; i < tokens.length; i++)
+	{
+		var value = parseInt(tokens[i]);
+		if (value != NaN)
+		{
+			played_audio[i] = parseInt(tokens[i]);
+		}
+	}
+}
+
+
+
+function audio_did_play(index)
+{
+	if (played_audio.includes(index))
+	{
+		return;
+	}
+
+	var cookie = get_cookie("played_audio");
+	cookie += "," + index;
+	set_cookie("played_audio", cookie, 90);
+}
+
+
+function set_cookie(name, value, expiration_days)
+{
+	var d = new Date();
+	d.setTime(d.getTime() + (expiration_days * 24 * 60 * 60 * 1000));
+	var expiration = "expires=" + d.toUTCString();
+	document.cookie = name + "=" + value + ";" + expiration;
+}
+
+
+
+function get_cookie(name)
+{
+	name = name + "=";
+	var arr = document.cookie.split(";");
+
+	for (var i = 0; i < arr.length; i++)
+	{
+		var cookie = arr[i];
+
+		while (cookie.charAt(0) == " ")
+		{
+			cookie = cookie.substring(1);
+		}
+
+		if (cookie.indexOf(name) == 0)
+		{
+			return cookie.substring(name.length, cookie.length);
+		}
+	}
+
+	return "";
 }
