@@ -1,4 +1,4 @@
-data =
+var data =
 [
 	"old_as_fuck.mp3", "Premiéra!",
 	"2021_07_16.mp3", "Domrdané google mapy.",
