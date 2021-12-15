@@ -21,7 +21,7 @@ data =
 	"2021_10_03.mp3", "Ivánka za závesom.",
 	"2021_10_05.mp3", "Prieskum novej bublinky.",
 	"2021_10_28.mp3", "Dobré ránečko, kokotenko!",
-	"2021_10_30.mp3", "Rusák, čo má kompletne FFFFpiči...",
+	"2021_10_30.mp3", "Foodpanda a šéfkuriérko.",
 	"2021_10_31.mp3", "8 euro za 100-gramovú pizzu a Luckina diktatúra v Buržujovi.",
 	"2021_11_01.mp3", "Prvá kompilka aj s hudbičtou.",
 	"2021_11_02.mp3", "Grécky boh prdov.",
