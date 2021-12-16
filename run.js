@@ -42,7 +42,7 @@ var data =
 	"2021_12_10.mp3", "Riťku-otvárajúci podmazík.",
 	"2021_12_11.mp3", "Éra vacápu a vlnobitia ság a epopejí sa končí.",
 	"2021_12_12.mp3", "Programátor tehotný muž.",
-	"2021_12_13.mp3", "Jurko vs Zajko o dodržiavaní predpisov.",
+	"2021_12_13.mp3", "Jurko vs Zajko a Ježiško vs Dedo Mráz.",
 	"2021_12_14.mp3", "Štyri mozgové bunky a ani tie o sebe nevedia.",
 	"2021_12_15.mp3", "Inžinieri z FB niekde urobili chybu.",
 	"2021_12_16.mp3", "Samozjeby na počkanie.",
