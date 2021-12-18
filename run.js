@@ -46,6 +46,7 @@ var data =
 	"2021_12_14.mp3", "Štyri mozgové bunky a ani tie o sebe nevedia.",
 	"2021_12_15.mp3", "Inžinieri z FB niekde urobili chybu.",
 	"2021_12_16.mp3", "Samozjeby na počkanie.",
+	"2021_12_17.mp3", "Ruské chorály a doomovky.",
 ];
 
 var played_audio;
