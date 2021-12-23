@@ -48,6 +48,7 @@ var data =
 	"2021_12_16.mp3", "Samozjeby na počkanie.",
 	"2021_12_17.mp3", "Ruské chorály a doomovky.",
 	"2021_12_18.mp3", "Papučkové prípravy na vianočný punč.",
+	"2021_12_23.mp3", "Predvianočná kratučká.",
 ];
 
 var played_audio;
