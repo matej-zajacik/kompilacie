@@ -33,7 +33,7 @@ var data =
 	"2021_11_11.mp3", "Cukríček balí švestičky a ide pinuškať...",
 	"2021_11_12.mp3", "Jedlé vrany a princ ružolíci.",
 	"2021_11_16.mp3", "Pravé americké raňajky.",
-	"2021_11_17.mp3", "Žiadny spánok! Podnikať a zarábať 24/7!",
+	"2021_11_17.mp3", "Keď kuriér dá prepitné zákazníkovi...",
 	"2021_11_20.mp3", "Odborník na žido-africký hmyz a muchohitler.",
 	"2021_11_23.mp3", "Tehotno-mužský LGBTQIA+ pozdrav.",
 	"2021_11_26.mp3", "Debilní vodiči a divní kuriéri.",
