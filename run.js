@@ -53,6 +53,7 @@ var data =
 	"2022_03_05.mp3", "Jimmy opravil kávomat, Robko si predplatil Wolt ňúsleter.",
 	"2022_03_07.mp3", "Náš vzťah je konvalinka, nie kaktus!",
 	"2022_03_08.mp3", "Bohlingo to flákal a preto klepol slabých 110 euro.",
+	"2022_03_09.mp3", "Robko a Zajko prežívajú hranie priblblej detskej hry ako malí ferkovia.",
 ];
 
 var played_audio;
