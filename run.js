@@ -54,6 +54,7 @@ var data =
 	"2022_03_07.mp3", "Náš vzťah je konvalinka, nie kaktus!",
 	"2022_03_08.mp3", "Bohlingo to flákal a preto klepol slabých 110 euro.",
 	"2022_03_09.mp3", "Robko a Zajko prežívajú hranie priblblej detskej hry ako malí ferkovia.",
+	"2022_03_12.mp3", "Jimmy zabezpečil notifikácie pre stretko na Šumavskej.",
 ];
 
 var played_audio;
