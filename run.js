@@ -57,6 +57,7 @@ var data =
 	"2022_03_12.mp3", "Jimmy zabezpečil notifikácie pre stretko na Šumavskej.",
 	"2022_03_15.mp3", "Dobrovoľníkov, čo chcú pomôcť zdarma, neberieme! Logicky!",
 	"2022_04_16.mp3", "Malí ferkovia ferkujú a Jimmy to valcuje.",
+	"2022_04_18.mp3", "O nádhernom páriku, čo dokopy váži pol tony.",
 ];
 
 var played_audio;
