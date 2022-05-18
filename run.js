@@ -58,6 +58,7 @@ var data =
 	"2022_03_15.mp3", "Dobrovoľníkov, čo chcú pomôcť zdarma, neberieme! Logicky!",
 	"2022_04_16.mp3", "Malí ferkovia ferkujú a Jimmy to valcuje.",
 	"2022_04_18.mp3", "O nádhernom páriku, čo dokopy váži pol tony.",
+	"2022_05_18.mp3", "Robko je priesvitný a všetci ho ignorujú.",
 ];
 
 var played_audio;
