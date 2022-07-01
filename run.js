@@ -59,6 +59,7 @@ var data =
 	"2022_04_16.mp3", "Malí ferkovia ferkujú a Jimmy to valcuje.",
 	"2022_04_18.mp3", "O nádhernom páriku, čo dokopy váži pol tony.",
 	"2022_05_18.mp3", "Robko je priesvitný a všetci ho ignorujú.",
+	"2022_07_01.mp3", "Robko sa nesústredí a kurví zákazky.",
 ];
 
 var played_audio;
